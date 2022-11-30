@@ -4,4 +4,6 @@ price=99.99;
 x=null;
 y=undefined;
 isFollow:true;
-console.log(x);
+
+let fullName = "Tony Stark";  
+console.log(fullName);
