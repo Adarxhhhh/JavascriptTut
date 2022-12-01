@@ -16,4 +16,19 @@ console.log(date);
 const time = 11;
 
 // time = 12;  This will throw a assignment is constant error as const cannot be reassigned
-console.log(time)
+console.log(time);
+
+
+// both let and const have block scope i.e they are local variables.
+
+// for example
+
+{
+    let a = 20;
+    console.log(a); // the scope of a is valid only to these curly braces.
+}
+
+{
+    let a = 40; // this is a new function hence a can be redefined here
+    console.log(a);
+}
