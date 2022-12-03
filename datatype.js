@@ -6,7 +6,7 @@ console.log(age);
 
 // there is another type of variables similar to all other languages in js. Big int
 // all numbers of type bigint end with n eg : 12345n 
-
+ 
 date = BigInt("12345");
 console.log(date);
 
@@ -43,3 +43,22 @@ student.age = student.age +1;
 console.log(student.age);
 
 // now on the console you can see that both the previous and the updated ages are available
+
+const product = {
+    penName : "Ball pen",
+    rating : 4,
+    offer : 5,
+    price : 270,
+};
+
+console.log(product)
+
+
+const profile = {
+    username : "@aadarshkatigi",
+    isFollow : false,
+    followers : 123,
+    following : 123
+}
+
+console.log(profile);
