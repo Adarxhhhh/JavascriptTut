@@ -70,3 +70,32 @@ let student = {
 for(let key in student){
     console.log("key = ", key, "value = ", student[key]);
 }
+
+let num = 0;
+
+while(num <= 40){
+    if(num % 2 == 0){
+        console.log(num);
+    }
+    num++;
+}
+
+for(let i=0; i<=30; i++){
+    if(i%2 == 0){
+        console.log(i,"is an even number");
+    }
+}
+
+
+// Game number
+
+let correctNum = 18;
+
+let userNum = prompt("guess game number between 10 and 20 : ");
+
+while(userNum != correctNum){
+    userNum = prompt("Wrong guess, Guess again");
+}
+
+console.log("Congratulations you guessed the right number");
+alert("Cogratulations, You guessed the right number");
