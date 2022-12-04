@@ -58,3 +58,20 @@ console.log("d === f", d===f);
  // Other operators include Logical operators.
 
  // They are && , || and , !
+
+ // Ternary operators
+
+ // works on the principle of a?b:c 
+
+ // a is the condition 
+
+ // if a is true then b is executed else c is executed
+
+
+let age = 25;
+
+let result = age >=18 ? "adult" : "Not an adult";
+
+console.log(result);
+
+// this is a compact form of if else but is not as easy to understand at first glance
