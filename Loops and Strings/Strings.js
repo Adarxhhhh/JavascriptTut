@@ -63,3 +63,17 @@ console.log(str1);
 str1 = str1.trim()
 //Here the trim() will remove all starting and trailing spaces and print the String in between
 console.log(str1);
+
+
+// These are some additional string methods in javaScript
+//str.slice(start, end)
+//str.concat(str2)
+//str.replcae(searchval, newVal) // replaces first instance of SearchVal with newval
+//str.replaceAll(searchval ,newVal) //replaces all instances of searchval with newval
+
+//str.charAt(idx);
+
+let userName = prompt("Enter you name as a continuous string")
+
+alert('@'+userName+userName.length) // returns the value @username,length as an alert
+
